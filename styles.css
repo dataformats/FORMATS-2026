@@ -159,6 +159,10 @@ section h2 {
     align-items: center;
 }
 
+.banner-emerald {
+    background: linear-gradient(135deg, rgba(96, 165, 250, 0.3), rgba(9, 18, 38, 0.95));
+}
+
 .news-banner::before {
     content: "";
     position: absolute;
@@ -292,13 +296,6 @@ section h2 {
 .organizer-card a {
     color: var(--accent);
     font-size: 0.9rem;
-}
-
-.placeholder-card {
-    justify-content: center;
-    text-align: center;
-    border-style: dashed;
-    border-color: rgba(255, 255, 255, 0.2);
 }
 
 .placeholder {
