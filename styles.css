@@ -341,6 +341,31 @@ section h2 {
     margin-left: 0.5rem;
 }
 
+.paper-list {
+    margin-top: 1rem;
+}
+
+.paper-list li + li {
+    margin-top: 0.75rem;
+}
+
+.paper-list strong {
+    color: var(--accent);
+    font-weight: 600;
+}
+
+.paper-list .paper-authors {
+    color: var(--muted);
+    font-size: 0.95rem;
+}
+
+.contact-author {
+    font-size: 0.85rem;
+    margin-left: 0.15rem;
+    color: var(--highlight);
+    cursor: help;
+}
+
 footer {
     margin-top: auto;
     padding: 2rem 0;
