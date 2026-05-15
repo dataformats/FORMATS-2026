@@ -29,58 +29,179 @@
         </header>
         <main>
             <section>
-                <h2>Keynote</h2>
-                <article class="keynote-card">
-                    <div class="keynote-photo">
-                        <img src="talks/raghu_ramakrishnan.jpg" alt="Portrait of Raghu Ramakrishnan" />
+                <h2>Workshop Program</h2>
+                <p class="program-room">Room: Scarlet 2</p>
+                <p class="program-intro">Tentative program. Some talks may be omitted if speakers are unable to travel due to visa-related uncertainty, and timings may be updated closer to the workshop date.</p>
+
+                <div class="program-simple">
+                    <p class="program-time">9:10 &ndash; 9:15</p>
+                    <p class="program-label">Welcome and opening remarks</p>
+                </div>
+
+                <div class="session-block">
+                    <h3 class="session-heading">Session 1: Storage Layout, Compaction, and Pruning</h3>
+                    <article class="news-banner banner-emerald" aria-label="Invited talk">
+                        <div class="news-content">
+                            <p class="program-time">9:15 &ndash; 9:45</p>
+                            <p class="news-label">Invited Talk</p>
+                            <h3>Pedro Pedreira</h3>
+                            <p class="news-description news-role">Software Engineer at Meta</p>
+                            <p class="news-description">Scaling AI Training: Storage Layout Challenges</p>
+                        </div>
+                        <div class="news-visual">
+                            <img src="talks/pedro_pedreira.jpg" alt="Portrait of Pedro Pedreira" />
+                        </div>
+                        <details class="talk-details">
+                            <summary>Abstract and speaker bio</summary>
+                            <p><strong>Abstract.</strong> Modern AI training pipelines demand efficient data loading and preparation; the storage layout layer plays an important role in the performance of both the read and write paths. This talk explores challenges in designing and evolving storage formats optimized for training workloads, discusses feature storage and processing, implications of wide tables, and challenges with normalization. It also presents Nimble, Meta's columnar file format, some of its main design decisions, features, and discusses future challenges and areas of exploration.</p>
+                            <p><strong>About the speaker.</strong> Pedro Pedreira is a Software Engineer at Meta, where he has spent over 13 years working on large-scale compute, storage, and query processing systems. Pedro leads Velox, a cross-organizational effort involving 20+ companies aimed at unifying execution engines using an open-source library, in addition to a variety of related efforts aimed at modernizing compute engines, more recently focused on AI training. Prior to Velox, Pedro led the creation of Cubrick and has contributed to a series of data open source infrastructure projects including Presto, Spark, Gluten, Nimble, Arrow, and others. His work focuses on building high-performance, composable execution libraries that serve as the foundation for analytical and AI workloads at scale.</p>
+                        </details>
+                    </article>
+                    <div class="paper-row">
+                        <p class="program-time">9:45 &ndash; 10:00</p>
+                        <div>
+                            <p class="paper-title">Commutative Compaction</p>
+                            <span class="paper-authors">Chris Douglas (UC Berkeley), Joseph Hellerstein (UC Berkeley)</span>
+                        </div>
                     </div>
-                    <div class="keynote-details">
-                        <p class="keynote-label">Keynote Speaker</p>
-                        <h3>Raghu Ramakrishnan</h3>
-                        <p class="keynote-role">CTO for Azure Data and Technical Fellow at Microsoft</p>
-                        <p class="keynote-abstract">Details coming soon.</p>
+                    <div class="paper-row">
+                        <p class="program-time">10:00 &ndash; 10:15</p>
+                        <div>
+                            <p class="paper-title">Amethyst: Adaptive Compaction for LSM Trees via Segment-Level Policy Selection</p>
+                            <span class="paper-authors">Suchitra Shankar (PES University), Nilin Rose (Jain University)</span>
+                        </div>
                     </div>
-                </article>
-            </section>
-            <section>
-                <h2>Invited Talks</h2>
-                <article class="keynote-card">
-                    <div class="keynote-photo">
-                        <img src="talks/sumedh_sakdeo.jpg" alt="Portrait of Sumedh Sakdeo" />
+                    <div class="paper-row">
+                        <p class="program-time">10:15 &ndash; 10:30</p>
+                        <div>
+                            <p class="paper-title">What No One Tells You About Page Pruning in Parquet: The Real Cost of Page Index Parsing</p>
+                            <span class="paper-authors">Faeze Faghih (Technical University of Darmstadt), Si Jun Kwon (Technical University of Darmstadt), Zsolt Istv&aacute;n (Technical University of Darmstadt)</span>
+                        </div>
                     </div>
-                    <div class="keynote-details">
-                        <p class="keynote-label">Invited Speaker</p>
-                        <h3>Sumedh Sakdeo</h3>
-                        <p class="keynote-role">Principal Staff Software Engineer at LinkedIn</p>
-                        <p class="keynote-abstract">Full-Stack Lakehouse Architecture at Exabyte Scale: Lessons and Research Opportunities from LinkedIn's OpenHouse-Managed Iceberg</p>
+                </div>
+
+                <div class="program-break">
+                    <p class="program-time">10:30 &ndash; 11:00</p>
+                    <p class="program-label">Coffee Break</p>
+                </div>
+
+                <div class="session-block">
+                    <h3 class="session-heading">Session 2: Lakehouse Architecture and Cross-Format Interoperability</h3>
+                    <article class="news-banner banner-keynote" aria-label="Keynote">
+                        <div class="news-content">
+                            <p class="program-time">11:00 &ndash; 12:00</p>
+                            <p class="news-label">Keynote</p>
+                            <h3>Raghu Ramakrishnan</h3>
+                            <p class="news-description news-role">CTO for Azure Data and Technical Fellow at Microsoft</p>
+                        </div>
+                        <div class="news-visual">
+                            <img src="talks/raghu_ramakrishnan.jpg" alt="Portrait of Raghu Ramakrishnan" />
+                        </div>
+                    </article>
+                    <div class="paper-row">
+                        <p class="program-time">12:00 &ndash; 12:15</p>
+                        <div>
+                            <p class="paper-title">The Lance Lakehouse Format</p>
+                            <span class="paper-authors">Ayush Chaurasia (LanceDB), Jack Ye (LanceDB), Lu Qiu (LanceDB), Lei Xu (LanceDB), Weston Pace (LanceDB)</span>
+                        </div>
                     </div>
-                </article>
-                <article class="keynote-card">
-                    <div class="keynote-photo">
-                        <img src="talks/pedro_pedreira.jpg" alt="Portrait of Pedro Pedreira" />
+                    <div class="paper-row">
+                        <p class="program-time">12:15 &ndash; 12:30</p>
+                        <div>
+                            <p class="paper-title">Polyglot: An LLM-Driven Semantic Control Plane for Cross-Format Type Interoperability Across Lakehouse Formats</p>
+                            <span class="paper-authors">Aastha Agrrawal (LinkedIn), Sumedh Sakdeo (LinkedIn), Afzal Afzal (LinkedIn), Ruolin Fan (LinkedIn), Kunal Narula (LinkedIn), Lenisha Gandhi (LinkedIn)</span>
+                        </div>
                     </div>
-                    <div class="keynote-details">
-                        <p class="keynote-label">Invited Speaker</p>
-                        <h3>Pedro Pedreira</h3>
-                        <p class="keynote-role">Software Engineer at Meta</p>
-                        <p class="keynote-abstract">Scaling AI Training: Storage Layout Challenges</p>
+                </div>
+
+                <div class="program-break">
+                    <p class="program-time">12:30 &ndash; 1:30</p>
+                    <p class="program-label">Lunch</p>
+                </div>
+
+                <div class="session-block">
+                    <h3 class="session-heading">Session 3: Metadata, Consistency, and Maintenance in Production Lakehouses</h3>
+                    <article class="news-banner banner-emerald" aria-label="Invited talk">
+                        <div class="news-content">
+                            <p class="program-time">1:30 &ndash; 2:00</p>
+                            <p class="news-label">Invited Talk</p>
+                            <h3>Sumedh Sakdeo</h3>
+                            <p class="news-description news-role">Principal Staff Software Engineer at LinkedIn</p>
+                            <p class="news-description">Full-Stack Lakehouse Architecture at Exabyte Scale: Lessons and Research Opportunities from LinkedIn's OpenHouse-Managed Iceberg</p>
+                        </div>
+                        <div class="news-visual">
+                            <img src="talks/sumedh_sakdeo.jpg" alt="Portrait of Sumedh Sakdeo" />
+                        </div>
+                        <details class="talk-details">
+                            <summary>Abstract and speaker bio</summary>
+                            <p><strong>Abstract.</strong> The lakehouse promise is simple: persist data once in an open format, query it from anywhere. Lakehouses are a real step forward &mdash; open formats, ACID transactions, multi-engine access. But persisting data once is solved. It breaks when that data gets served.</p>
+                            <p>In open lakehouses, there is no narrow API enforcing correctness inline. The data plane is format libraries embedded in N engines; the catalog sees metadata but never the bytes. Every gap in this architecture compounds silently at scale.</p>
+                            <p>We describe five research frontiers surfaced by operating OpenHouse &mdash; LinkedIn's open-source declarative control plane for Apache Iceberg &mdash; across 300,000+ tables and over one exabyte of managed data. (1) <strong>Interoperability</strong>: the same bits on disk can look different when queried from different engines &mdash; types, schemas, and semantics diverge silently across the stack. (2) <strong>The online/offline divide</strong>: the industry-wide cost of duplicating data between operational and analytical systems via CDC pipelines, and the path toward WAL-centric convergence. (3) <strong>Agent guardrails</strong>: as LLM-driven agents write to production data, data engineering needs the same branch-validate-merge safety model that software engineering solved decades ago. (4) <strong>Data layout optimization</strong>: compaction, sort order, partitioning, and write throughput are coupled objectives with no single global optimum, building on our AutoComp framework (SIGMOD '25). (5) <strong>Incremental processing</strong>: real-time freshness is well-served by Kafka stream processing, and completeness is well-served by Spark batch over verified data &mdash; but the middle ground of near-real-time freshness remains underserved, where streaming becomes prohibitively expensive and batch lacks the tooling to consume incremental deltas efficiently.</p>
+                            <p>For each frontier, we present the problem at production scale and pose open research questions for the data community.</p>
+                            <p><strong>About the speaker.</strong> Sumedh Sakdeo is a Principal Staff Software Engineer at LinkedIn. He has 15+ years of experience working in data infrastructure. He previously contributed to a log-structured file system at Tintri and led data infrastructure, engineering, and visualization for Lyft's self-driving division. Notably, at LinkedIn, he spearheaded the development of OpenHouse, a pioneering control plane for open-source data lakehouse deployments.</p>
+                        </details>
+                    </article>
+                    <div class="paper-row">
+                        <p class="program-time">2:00 &ndash; 2:15</p>
+                        <div>
+                            <p class="paper-title">Zero-Scan Data Quality: Leveraging Table Format Metadata for Continuous Observability at Scale</p>
+                            <span class="paper-authors">Mohit Verma (LinkedIn), Shantanu Rawat (LinkedIn), Christian Bush (LinkedIn), Sumedh Sakdeo (LinkedIn), Lokesh Amarnath Ravindranathan (LinkedIn), Dwarak Bakshi (LinkedIn)</span>
+                        </div>
                     </div>
-                </article>
-                <article class="keynote-card">
-                    <div class="keynote-photo">
-                        <img src="talks/will_manning.png" alt="Portrait of Will Manning" />
+                    <div class="paper-row">
+                        <p class="program-time">2:15 &ndash; 2:30</p>
+                        <div>
+                            <p class="paper-title">How Consistent and Fresh are Lake Tables Really</p>
+                            <span class="paper-authors">Zinuo Li (Renmin University of China), Dongyang Geng (Renmin University of China), Haoyue Li (Renmin University of China), Hailong Yu (eDaijia Automobile Technology), Qi Lei (Renmin University of China), Haoqiong Bian (Renmin University of China)</span>
+                        </div>
                     </div>
-                    <div class="keynote-details">
-                        <p class="keynote-label">Invited Speaker</p>
-                        <h3>Will Manning</h3>
-                        <p class="keynote-role">Co-founder/CEO at Spiral</p>
-                        <p class="keynote-abstract">Details coming soon.</p>
+                    <div class="paper-row">
+                        <p class="program-time">2:30 &ndash; 2:45</p>
+                        <div>
+                            <p class="paper-title">Metadata-as-Data in Apache Hudi: A Multi-Modal Index Substrate for Lakehouse Tables</p>
+                            <span class="paper-authors">Sagar Sumit (Anyscale), Prashant Wason (Uber), Sivabalan Narayanan (Onehouse)</span>
+                        </div>
                     </div>
-                </article>
-            </section>
-            <section>
-                <h2>Schedule</h2>
-                <p class="placeholder">Full workshop schedule will be published here.</p>
+                    <div class="paper-row">
+                        <p class="program-time">2:45 &ndash; 3:00</p>
+                        <div>
+                            <p class="paper-title">Table Format Optimizations in Managed Spark for Dataproc</p>
+                            <span class="paper-authors">Isha Tarte (Google), Jayadeep Jayaraman (Google), Abhishek Modi (Google), Vishal Karve (Google), Jingwei Lu (Google), Sourabh Badhya (Google), Rajarshi Sarkar (Google), Aditya Shah (Google), Haymant Mangla (Google), Zihan Cao (Google), Huadong Liu (Google), Warren Zhu (Google), Wei Yan (OpenAI)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="program-break">
+                    <p class="program-time">3:00 &ndash; 3:30</p>
+                    <p class="program-label">Coffee Break</p>
+                </div>
+
+                <div class="session-block">
+                    <h3 class="session-heading">Session 4: Emerging Directions and the Road Ahead</h3>
+                    <article class="news-banner banner-emerald" aria-label="Invited talk">
+                        <div class="news-content">
+                            <p class="program-time">3:30 &ndash; 4:00</p>
+                            <p class="news-label">Invited Talk</p>
+                            <h3>Will Manning</h3>
+                            <p class="news-description news-role">Co-founder/CEO at Spiral</p>
+                        </div>
+                        <div class="news-visual">
+                            <img src="talks/will_manning.png" alt="Portrait of Will Manning" />
+                        </div>
+                    </article>
+                    <article class="news-banner banner-emerald no-visual" aria-label="Panel discussion">
+                        <div class="news-content">
+                            <p class="program-time">4:00 &ndash; 4:55</p>
+                            <p class="news-label">Panel Discussion</p>
+                            <h3>File Formats</h3>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="program-simple">
+                    <p class="program-time">4:55 &ndash; 5:00</p>
+                    <p class="program-label">Closing remarks</p>
+                </div>
             </section>
         </main>
     </div>
