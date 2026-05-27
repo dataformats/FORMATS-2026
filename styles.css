@@ -7,6 +7,7 @@
     --highlight: #f6ad55;
     --text: #dde7f2;
     --muted: #8aa0b8;
+    --muted-bright: #aec2d8;
 }
 
 * {
@@ -209,7 +210,7 @@ section h2 {
 }
 
 .news-role {
-    color: var(--muted);
+    color: var(--muted-bright);
     margin: 0.2rem 0 0.25rem;
 }
 
@@ -362,7 +363,7 @@ section h2 {
 }
 
 .paper-list .paper-authors {
-    color: var(--muted);
+    color: var(--muted-bright);
     font-size: 0.95rem;
 }
 
@@ -427,7 +428,7 @@ section h2 {
 
 .talk-details {
     margin-top: 0.75rem;
-    color: var(--muted);
+    color: var(--muted-bright);
     font-size: 0.95rem;
     max-width: none;
 }
@@ -490,7 +491,7 @@ section h2 {
 
 .paper-row .paper-authors {
     display: block;
-    color: var(--muted);
+    color: var(--muted-bright);
     font-size: 0.92rem;
     margin-top: 0.15rem;
 }
