@@ -40,6 +40,7 @@
 
                 <div class="session-block">
                     <h3 class="session-heading">Session 1: Storage Layout, Compaction, and Pruning</h3>
+                    <p class="session-theme session-chair">Session Chair: Muthunagappan Muthuraman (Snowflake)</p>
                     <article class="news-banner banner-emerald" aria-label="Invited talk">
                         <div class="news-content">
                             <p class="program-time">9:15 &ndash; 9:45</p>
@@ -53,7 +54,7 @@
                         </div>
                         <details class="talk-details">
                             <summary>Abstract and speaker bio</summary>
-                            <p><strong>Abstract.</strong> Modern AI training pipelines demand efficient data loading and preparation; the storage layout layer plays an important role in the performance of both the read and write paths. This talk explores challenges in designing and evolving storage formats optimized for training workloads, discusses feature storage and processing, implications of wide tables, and challenges with normalization. It also presents Nimble, Meta's columnar file format, some of its main design decisions, features, and discusses future challenges and areas of exploration.</p>
+                            <p><strong>Abstract.</strong> Modern AI training pipelines demand efficient data loading and preparation; the storage layout layer plays an important role in the performance of both the read and write paths. This talk explores challenges in designing and evolving storage formats optimized for training workloads, discusses feature storage and processing, implications of wide tables, and challenges with normalization. It also presents Nimble, Meta’s columnar file format, some of its main design decisions, features, and discusses future challenges and areas of exploration.</p>
                             <p><strong>About the speaker.</strong> Pedro Pedreira is a Software Engineer at Meta, where he has spent over 13 years working on large-scale compute, storage, and query processing systems. Pedro leads Velox, a cross-organizational effort involving 20+ companies aimed at unifying execution engines using an open-source library, in addition to a variety of related efforts aimed at modernizing compute engines, more recently focused on AI training. Prior to Velox, Pedro led the creation of Cubrick and has contributed to a series of data open source infrastructure projects including Presto, Spark, Gluten, Nimble, Arrow, and others. His work focuses on building high-performance, composable execution libraries that serve as the foundation for analytical and AI workloads at scale.</p>
                         </details>
                     </article>
@@ -87,6 +88,7 @@
 
                 <div class="session-block">
                     <h3 class="session-heading">Session 2: Lakehouse Architecture and Cross-Format Interoperability</h3>
+                    <p class="session-theme session-chair">Session Chair: Jignesh Patel (Carnegie Mellon University)</p>
                     <article class="news-banner banner-keynote" aria-label="Keynote">
                         <div class="news-content">
                             <p class="program-time">11:00 &ndash; 12:00</p>
@@ -98,6 +100,11 @@
                         <div class="news-visual">
                             <img src="talks/raghu_ramakrishnan.jpg" alt="Portrait of Raghu Ramakrishnan" />
                         </div>
+                        <details class="talk-details">
+                            <summary>Abstract and speaker bio</summary>
+                            <p><strong>Abstract.</strong> Data lakes have become a new hub of modern integrated analytics platforms, serving a diverse ecosystem of engines and supporting workloads that span interactive exploration to large-scale warehousing. Today, this landscape is evolving yet again: alongside human-driven analytics, data lakes increasingly serve agents performing a wide spectrum of tasks. This shift is driving query rates much higher, with workloads characterized by highly concurrent, often overlapping requests, and often fine-grained, short-lived queries. At the same time, expectations around performance and reliability have risen considerably. These trends are reshaping the design space of data lakes. In this talk, we look at how data lakes are evolving to meet these new demands, and paint a forward-looking picture of where they are headed.</p>
+                            <p><strong>About the speaker.</strong> Raghu Ramakrishnan is CTO for Data and a Technical Fellow at Microsoft. From 1987 to 2006, he was a professor at University of Wisconsin-Madison, where he wrote the widely used text “Database Management Systems”.  In 1999, he founded QUIQ, a company powering crowd-sourced question-answering as a cloud service. He joined Yahoo! in 2006 as a Yahoo! Fellow, and served as Chief Scientist for the portal, cloud and search divisions. Ramakrishnan has received several awards, including the ACM SIGMOD Edgar F. Codd Innovations Award, the ACM SIGKDD Innovations Award, the IEEE TCDE Elmasri Outstanding Database Education Award, the ACM SIGMOD Contributions Award, 10-year Test-of-Time Awards from the ACM SIGMOD, ACM SOCC, ICDT and VLDB conferences, the IIT Madras Distinguished Alumnus Award, the NSF Presidential Young Investigator Award, and the Packard Fellowship in Science and Engineering. He is a Fellow of the ACM and IEEE and has served as Chair of ACM SIGMOD.</p>
+                        </details>
                     </article>
                     <div class="paper-row">
                         <p class="program-time">12:00 &ndash; 12:15</p>
@@ -122,6 +129,7 @@
 
                 <div class="session-block">
                     <h3 class="session-heading">Session 3: Metadata, Consistency, and Maintenance in Production Lakehouses</h3>
+                    <p class="session-theme session-chair">Session Chair: Harshad Deshmukh (Google)</p>
                     <article class="news-banner banner-emerald" aria-label="Invited talk">
                         <div class="news-content">
                             <p class="program-time">1:30 &ndash; 2:00</p>
@@ -179,6 +187,7 @@
 
                 <div class="session-block">
                     <h3 class="session-heading">Session 4: Emerging Directions and the Road Ahead</h3>
+                    <p class="session-theme session-chair">Session Chair: Ashvin Agrawal (Microsoft)</p>
                     <article class="news-banner banner-emerald" aria-label="Invited talk">
                         <div class="news-content">
                             <p class="program-time">3:30 &ndash; 4:00</p>
@@ -196,6 +205,87 @@
                             <p class="program-time">4:00 &ndash; 4:55</p>
                             <p class="news-label">Panel Discussion</p>
                             <h3 class="panel-title">Does One Size Still Fit All? Data Formats in a Multi Engine, Agentic Stack</h3>
+                        </div>
+                        <div class="panel-people" aria-label="Panel participants">
+                            <p class="panel-people-heading">Participants</p>
+
+                            <article class="panel-person moderator" aria-label="Moderator">
+                                <img src="organizers/ashvin_agrawal.png" alt="Portrait of Ashvin Agrawal" class="panel-person-photo" />
+                                <div class="panel-person-body">
+                                    <p class="panel-person-role">Moderator</p>
+                                    <h4>Ashvin Agrawal</h4>
+                                    <p class="panel-person-title">Principal RSDE at Microsoft Gray System Lab</p>
+                                    <details class="panel-person-bio-tab">
+                                        <summary>Background</summary>
+                                        <p>Ashvin has over two decades of experience in building large-scale distributed systems. He has contributed to leading products and open-source projects. He is a PMC member of Apache XTable and Polaris, and has previously served on the PMC of Apache Geode and Heron. Currently, he is a Research Engineer at Microsoft Gray System Lab (GSL), where he focuses on data storage, databases, streaming technologies, and data provenance. Ashvin has previously held senior positions at VMware, Yahoo, and AirTight Networks. He has authored numerous scholarly articles and holds an M.Tech. in Computer Science from IIT Kanpur.</p>
+                                    </details>
+                                </div>
+                            </article>
+
+                            <article class="panel-person" aria-label="Panelist">
+                                <img src="talks/jignesh_patel.jpg" alt="Portrait of Jignesh Patel" class="panel-person-photo" />
+                                <div class="panel-person-body">
+                                    <p class="panel-person-role">Panelist</p>
+                                    <h4>Jignesh Patel</h4>
+                                    <p class="panel-person-title">Professor at Carnegie Mellon University</p>
+                                    <details class="panel-person-bio-tab">
+                                        <summary>Background</summary>
+                                        <p>Jignesh Patel is a professor in the Computer Science Department at Carnegie Mellon University. His research focuses on scalable data platforms and the use of AI to improve how people interact with those platforms. He is a Fellow of AAAS, ACM, and IEEE. He is also deeply interested in translating university research into real-world impact, having spun out four startups from his research group.</p>
+                                    </details>
+                                </div>
+                            </article>
+
+                            <article class="panel-person" aria-label="Panelist">
+                                <img src="talks/madhan_gajendran.png" alt="Portrait of Madhan Gajendran" class="panel-person-photo" />
+                                <div class="panel-person-body">
+                                    <p class="panel-person-role">Panelist</p>
+                                    <h4>Madhan Gajendran</h4>
+                                    <p class="panel-person-title">Partner Architect at Microsoft</p>
+                                    <details class="panel-person-bio-tab">
+                                        <summary>Background</summary>
+                                        <p>Since 2006, Madhan has worked on various projects at Microsoft spanning Windows, Hyper-V (Virtualization platform), SQL Server, Azure Cosmos DB and recently he has been innovating in the intersection of modern OLTP, Search and OLAP systems. His primary interest at work is in engineering large scale data systems and platforms that empower Microsoft partners and customers.</p>
+                                    </details>
+                                </div>
+                            </article>
+
+                            <article class="panel-person" aria-label="Panelist">
+                                <img src="talks/nitin_agrawal.jpeg" alt="Portrait of Nitin Agrawal" class="panel-person-photo" />
+                                <div class="panel-person-body">
+                                    <p class="panel-person-role">Panelist</p>
+                                    <h4>Nitin Agrawal</h4>
+                                    <p class="panel-person-title">Software Engineer at Google</p>
+                                    <details class="panel-person-bio-tab">
+                                        <summary>Background</summary>
+                                        <p>Nitin Agrawal is a Software Engineer at Google working on analytical storage and database systems. His past work on distributed and storage systems has received multiple best–paper awards, a USENIX Test of Time award, an outstanding patent award, and coverage in popular media. He served as the program-committee chair for USENIX FAST ’18 and earned his doctorate in Computer Science from the University of Wisconsin - Madison.</p>
+                                    </details>
+                                </div>
+                            </article>
+
+                            <article class="panel-person" aria-label="Panelist">
+                                <img src="talks/pedro_pedreira.jpg" alt="Portrait of Pedro Pedreira" class="panel-person-photo" />
+                                <div class="panel-person-body">
+                                    <p class="panel-person-role">Panelist</p>
+                                    <h4>Pedro Pedreira</h4>
+                                    <p class="panel-person-title">Software Engineer at Meta</p>
+                                    <details class="panel-person-bio-tab">
+                                        <summary>Background</summary>
+                                        <p>Pedro Pedreira is a Software Engineer at Meta, where he has spent over 13 years working on large-scale compute, storage, and query processing systems. Pedro leads Velox, a cross-organizational effort involving 20+ companies aimed at unifying execution engines using an open-source library, in addition to a variety of related efforts aimed at modernizing compute engines, more recently focused on AI training. Prior to Velox, Pedro led the creation of Cubrick and has contributed to a series of data open source infrastructure projects including Presto, Spark, Gluten, Nimble, Arrow, and others. His work focuses on building high-performance, composable execution libraries that serve as the foundation for analytical and AI workloads at scale.</p>
+                                    </details>
+                                </div>
+                            </article>
+
+                            <article class="panel-person" aria-label="Panelist">
+                                <img src="talks/will_manning.png" alt="Portrait of Will Manning" class="panel-person-photo" />
+                                <div class="panel-person-body">
+                                    <p class="panel-person-role">Panelist</p>
+                                    <h4>Will Manning</h4>
+                                    <p class="panel-person-title">Co-founder &amp; CEO at Spiral</p>
+                                    <details class="panel-person-bio-tab">
+                                        <summary>Background</summary>
+                                        <p>Will Manning is Co-founder &amp; CEO at Spiral, a startup building a next-generation multimodal warehousing system. Spiral particularly excels at workloads like GPU data loading ("making GPUs go brr"), in addition to more traditional relational queries. Will is also the TSC Chair of Vortex, an Incubation stage project at the Linux Foundation that is building an extensible, state-of-the-art columnar file format. Prior to starting Spiral, he worked at Palantir for nearly 10 years. While there, he helped create Palantir Foundry, started Palantir's European commercial business, &amp; ran "every engineering team that read or wrote bytes". In ancient times (ca. 2010), he did research work on reinforcement learning. </p>
+                                    </details>
+                                </div>
+                            </article>
                         </div>
                     </article>
                 </div>
