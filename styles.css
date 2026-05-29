@@ -557,7 +557,7 @@ section h2 {
 }
 
 .news-banner.no-visual .panel-title {
-    font-size: 1.05rem;
+    font-size: 1.1rem;
     line-height: 1.3;
     max-width: 54ch;
 }
@@ -576,7 +576,7 @@ section h2 {
     color: var(--highlight);
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    font-size: 0.88rem;
+    font-size: 0.95rem;
     font-weight: 700;
 }
 
@@ -593,6 +593,10 @@ section h2 {
     border-top: none;
 }
 
+.panel-person.moderator .panel-person-role {
+    color: var(--highlight);
+}
+
 .panel-person-photo {
     width: 88px;
     height: 88px;
@@ -603,14 +607,14 @@ section h2 {
 
 .panel-person-body h4 {
     margin: 0.02rem 0 0.08rem;
-    font-size: 1.02rem;
+    font-size: 1.1rem;
     line-height: 1.25;
 }
 
 .panel-person-role {
     margin: 0;
     color: var(--accent);
-    font-size: 0.88rem;
+    font-size: 0.95rem;
     font-weight: 700;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -619,7 +623,7 @@ section h2 {
 .panel-person-title {
     margin: 0;
     color: var(--muted-bright);
-    font-size: 0.92rem;
+    font-size: 1rem;
 }
 
 .panel-person-bio-tab {
@@ -633,7 +637,7 @@ section h2 {
     font-weight: 600;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     list-style: none;
 }
 
@@ -654,7 +658,7 @@ section h2 {
 .panel-person-bio-tab p {
     margin: 0.28rem 0 0;
     color: var(--muted-bright);
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     line-height: 1.45;
 }
 
@@ -671,7 +675,7 @@ section h2 {
     font-weight: 600;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     list-style: none;
 }
 
