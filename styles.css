@@ -593,10 +593,6 @@ section h2 {
     border-top: none;
 }
 
-.panel-person.moderator .panel-person-role {
-    color: var(--highlight);
-}
-
 .panel-person-photo {
     width: 88px;
     height: 88px;
@@ -607,7 +603,7 @@ section h2 {
 
 .panel-person-body h4 {
     margin: 0.02rem 0 0.08rem;
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     line-height: 1.25;
 }
 
