@@ -489,6 +489,20 @@ section h2 {
     font-size: 0.95rem;
 }
 
+.paper-update-note {
+    display: block;
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin-top: 0.15rem;
+}
+
+.paper-update-marker {
+    font-size: 0.8em;
+    vertical-align: super;
+    margin-left: 0.08rem;
+    color: var(--muted);
+}
+
 .contact-author {
     font-size: 0.85rem;
     margin-left: 0.15rem;
