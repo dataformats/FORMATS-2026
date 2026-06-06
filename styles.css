@@ -484,23 +484,39 @@ section h2 {
     font-weight: 600;
 }
 
+.paper-list .paper-title-row {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.45rem;
+}
+
 .paper-list .paper-authors {
     color: var(--muted-bright);
     font-size: 0.95rem;
 }
 
-.paper-update-note {
-    display: block;
-    color: var(--muted);
-    font-size: 0.83rem;
-    margin-top: 0.15rem;
+.paper-list .paper-link-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.15rem 0.38rem 0.13rem;
+    border-radius: 999px;
+    border: 1px solid rgba(246, 173, 85, 0.45);
+    background: rgba(246, 173, 85, 0.12);
+    color: var(--highlight);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
-.paper-update-marker {
-    font-size: 0.8em;
-    vertical-align: super;
-    margin-left: 0.08rem;
-    color: var(--muted);
+.paper-list .paper-link-badge:hover,
+.paper-list .paper-link-badge:focus-visible {
+    background: rgba(246, 173, 85, 0.2);
+    border-color: rgba(246, 173, 85, 0.7);
+    color: var(--highlight);
 }
 
 .contact-author {
@@ -735,11 +751,41 @@ section h2 {
     margin: 0;
 }
 
+.paper-row .paper-title-row {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.45rem;
+}
+
 .paper-row .paper-authors {
     display: block;
     color: var(--muted-bright);
     font-size: 0.95rem;
     margin-top: 0.15rem;
+}
+
+.paper-row .paper-link-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.15rem 0.38rem 0.13rem;
+    border-radius: 999px;
+    border: 1px solid rgba(246, 173, 85, 0.45);
+    background: rgba(246, 173, 85, 0.12);
+    color: var(--highlight);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.paper-row .paper-link-badge:hover,
+.paper-row .paper-link-badge:focus-visible {
+    background: rgba(246, 173, 85, 0.2);
+    border-color: rgba(246, 173, 85, 0.7);
+    color: var(--highlight);
 }
 
 .program-break,
